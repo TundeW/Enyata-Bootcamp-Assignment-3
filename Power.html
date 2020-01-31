@@ -1,0 +1,27 @@
+<html>
+<head>
+    <!--<link rel="stylesheet" href="style2.css">-->
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <h1>This page gives you the value of x raised to the power of n</h1>
+    <button>Submit</button>
+
+    <script>
+    function pow (x,n) {
+
+    //window.alert(x**n)
+        let power = 1;
+        while (n>0) {
+            power = power * x;
+            n--
+        }
+    window.alert(power);
+}
+
+    x = prompt("What is the value of x?");
+    n = prompt("What is the value of n?");
+    pow(x,n)
+    </script>
+</body>
+</html>
